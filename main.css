@@ -1,0 +1,72 @@
+html *{
+	font-family: 'Montserrat', sans-serif;
+}
+
+path:hover {
+	fill-opacity: .7;
+}
+
+.theList {
+	display: inline-block;
+	-webkit-column-count: 2;
+	-webkit-column-gap: 0;
+	-webkit-column-fill: auto;
+
+	-moz-column-count: 2;
+	-moz-column-gap: 0;
+	-moz-column-fill: auto;
+
+	column-count: 2;
+	column-gap: 0;
+	column-fill: auto;
+
+	height: 30em;
+}
+
+
+.title{
+
+}
+.map{
+	float:left;
+}
+.info{
+	width: 500px;
+	height: 500px;
+	float:right;
+	padding-right:30px;
+}
+.mesh {
+	fill: none;
+	stroke: #fff;
+	stroke-linecap: round;
+	stroke-linejoin: round;
+}
+
+.mun {
+	fill: #ccc;
+	cursor: pointer;
+}
+
+/*.mun:hover {
+	fill: yellow;
+}*/
+.munLabel {
+	pointer-events: none;
+	font-size: 8pt;
+	text-align: justify;
+}
+
+/*.munLabel:hover {
+	font-size: 20px;
+	font-family: sans-serif;
+}*/
+
+.background {
+	fill: none;
+	pointer-events: all;
+}
+
+.mun.active {
+	fill: orange;
+}
